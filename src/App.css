@@ -100,7 +100,9 @@
 .Plus{
   border:solid;
   padding:8px 9px 8px 8px;
-  border-radius: 100px;
+  border-radius: 100%;
+  
+  align-items: center;
   border-width: 2px;
   margin-right: 20px;
   margin-left: 130px;
@@ -111,14 +113,14 @@
 .leftPlus{
   border:solid;
   padding:8px 12px 8px 12px;
-  border-radius: 100px;
-  border-width: 8px;
+  border-radius: 100%;
+  border-width: px;
   margin-right: 5px;
   margin-top: -30px;
   border-color: #e8719c;
   background-color: #e8719c;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   z-index:9999;
   position: absolute;
 }

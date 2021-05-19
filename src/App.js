@@ -3,10 +3,10 @@ import './App.css';
 import {Button,Row,Col,Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RightGrid from './RightGrid';
-import profile from './Images/profile.jpg';
+import profile from './Images/profile.jpeg';
 import B from './Images/B.jpg';
 import img1 from './Images/img1.jpg';
-import img2 from './Images/img2.jpeg';
+import img2 from './Images/img2.jpg';
 import img3 from './Images/img3.jpg';
 import img4 from './Images/img4.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -82,7 +82,7 @@ function App() {
       <img className="img3" src={img3} alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
       <img className="img4"src={img4} alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
       <div className="Plus">
-      <FontAwesomeIcon icon={faPlus}/>
+      <FontAwesomeIcon icon={faPlus} />
       </div>
       </div>
       </Col>

@@ -12,10 +12,12 @@ function RightGrid() {
                 <Col sm xs md lg="5">
                   <Col>
                     <div className="firstBox">
-                   <b>Your<br/>limitation<br/>it's only<br/>your<br/> imagination.</b> 
+                   <b>Your<br/>limitation<br/>it's only<br/>your<br/>imagination.</b>
+                   
                     <div className="Play">
                             <FontAwesomeIcon  icon={faPlay} size="xs"/>
                     </div>
+                   
                     </div>
                     </Col>
                     <Col>
@@ -43,8 +45,8 @@ function RightGrid() {
                       <Col>
                     <div className="fifthBox">
 
-                   <b>Stay <br/>Focused.</b><br/>
-                   <Button class="btn btn-secondary " id="StayFocusedBtn">Good Articles</Button><br/><br/>
+                   <b>Stay<br/>Focused.</b><br/>
+                   <Button class="btn btn-secondary " id="StayFocusedBtn">Read Articles</Button><br/><br/>
                     </div>
                     </Col>
                     </Row>
